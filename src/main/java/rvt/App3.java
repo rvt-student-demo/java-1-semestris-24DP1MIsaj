@@ -2,6 +2,7 @@ package rvt;
 import java.util.Scanner;
 
 public class App {
+    
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
@@ -19,5 +20,4 @@ public class App {
 
         System.out.println("The average is " + result2);
     }
-
 }

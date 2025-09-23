@@ -2,6 +2,7 @@ package rvt;
 import java.util.Scanner;
 
 public class OddOrEven {
+    
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
@@ -15,5 +16,4 @@ public class OddOrEven {
             System.out.println("Number " + num + " is odd.");
         }
     }
-
 }

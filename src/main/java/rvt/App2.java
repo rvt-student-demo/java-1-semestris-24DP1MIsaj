@@ -2,6 +2,7 @@ package rvt;
 import java.util.Scanner;
 
 public class App {
+    
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
@@ -26,5 +27,4 @@ public class App {
         double whenDivisorIsFloat = 3 / 2.0;
         System.out.println(whenDivisorIsFloat); // prints 1.5
     }
-
 }
