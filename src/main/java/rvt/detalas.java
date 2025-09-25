@@ -23,7 +23,7 @@ public class Detalas {
 
         if (value2 >= value1 && value3 * 2 > value1) {
             System.out.println("Pasūtījums ir kārtība");
-            System.out.println("Kopējā cena: " + result);
+            System.out.println();
         } else {
             if (value2 < value1) {
                 System.out.println("Pārbaudi pasūtījumu: par maz uzgriežņu");
@@ -33,7 +33,7 @@ public class Detalas {
                 System.out.println("Pārbaudi pasūtījumu: par maz paplāksņu");
                 System.out.println();
             }
-            System.out.println("Kopējā cena: " + result);
         }
+        System.out.println("Kopējā cena: " + result);
     }
 }
