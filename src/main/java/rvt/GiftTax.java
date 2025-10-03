@@ -1,7 +1,7 @@
 package rvt;
 import java.util.Scanner;
 
-public class Gift_tax {
+public class GiftTax {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
