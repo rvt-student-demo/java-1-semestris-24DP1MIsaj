@@ -1,7 +1,7 @@
 package rvt;
 import java.util.Scanner;
 
-public class App {
+public class App2 {
     
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
@@ -11,6 +11,7 @@ public class App {
 
         System.out.println("Give the first number: ");
         int num2 = Integer.valueOf(reader.nextLine());
+        reader.close();
 
         int result1 = num1 + num2;
         int result2 = num1 / num2;

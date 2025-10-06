@@ -6,7 +6,7 @@ public class Password {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Password?");
-        String password = scanner.nextline();
+        String password = scanner.nextLine();
         scanner.close();
 
         String kods = "Caput Draconis";
