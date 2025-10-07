@@ -20,5 +20,11 @@ public class App3 {
         double result2 = result / 3;
 
         System.out.println("The average is " + result2);
+
+        int[] arr = {5, 3, 4, 1, 2};
+        // printēt katru masīvu elementu
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }
