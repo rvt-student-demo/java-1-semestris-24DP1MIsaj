@@ -7,7 +7,7 @@ public class Spele {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int random_num = random.nextInt(bound:10) + 1;
+        int random_num = random.nextInt(10) + 1;
         System.out.println("Es domāju par skaitli no 1 līdz 10.");
         System.out.println("Tev tas jāuzmin trīs mēģinājumos.");
         System.out.println("Ievadi minējumu.");
