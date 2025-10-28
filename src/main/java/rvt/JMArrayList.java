@@ -79,20 +79,13 @@ public class JMArrayList {
         String search = reader.nextLine();
         reader.close();
 
-        int found = 0;
-        for (int i = 0; i < data3.size(); i++) {
-            if (data3.get(i).equals(search)) {
-                System.out.println(search + " was found!");
-                found = 1;
-                break;
-            } 
-        }
-
-        if (found == 0) {
+        if (data3.contains(search)) {
+            System.out.println(search + " was found!");
+        } else {
             System.out.println(search + " was not found!");
         }
-        
     }
+    
     public static void removeLast(ArrayList<String> strings) {
         strings.remove(strings.size() - 1);
     }
