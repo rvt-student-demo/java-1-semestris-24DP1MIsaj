@@ -39,7 +39,7 @@ class Main {
 
         System.out.println("Enter numbers:");
         while (true) {
-            int number = Integer.parseInt(scanner.nextLine());
+            int number = Integer.valueOf(scanner.nextLine());
             if (number == -1) {
                 break;
             }
