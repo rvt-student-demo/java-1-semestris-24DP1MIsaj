@@ -20,11 +20,11 @@ class Statistics3 {
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Statistics stats = new Statistics();
+        Statistics3 stats = new Statistics3();
 
         System.out.println("Enter numbers:");
         while (true) {
-            int number = Integer.parseInt(scanner.nextLine());
+            int number = Integer.valueOf(scanner.nextLine());
             if (number == -1) {
                 break;
             }
@@ -32,5 +32,6 @@ class Main {
         }
 
         System.out.println("Sum: " + stats.sum());
+        scanner.close();
     }
 }
