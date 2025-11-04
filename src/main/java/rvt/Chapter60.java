@@ -75,11 +75,13 @@ public class Chapter60 {
         System.out.println( "Original Array: " 
         + val3[0] + " " + val3[1] + " " + val3[2] + " " + val3[3] );
 
-        int index = val3.length;
+        int index = val3.length - 1;
         for (int i = 0 ; i < val3.length; i++) {
             temp[i] = val3[index];
+            index--;
         }
-
+        
+        val3 = temp;
         System.out.println( "Reversed Array: " 
         + val3[0] + " " + val3[1] + " " + val3[2] + " " + val3[3] );
     }
