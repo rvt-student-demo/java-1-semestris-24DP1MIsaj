@@ -30,7 +30,7 @@ public class Statistics2 {
     }
 }
 
-class Main {
+class MainProgram2 {
     public static void main(String[] args) {
         Statistics2 statistics = new Statistics2();
         statistics.addNumber(3);

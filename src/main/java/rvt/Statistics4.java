@@ -29,7 +29,7 @@ public class Statistics4 {
     }
 }
 
-class Main {
+class MainProgram4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -1,7 +1,7 @@
 package rvt;
 import java.util.Scanner;
 
-class Statistics3 {
+public class Statistics3 {
     private int sum;
 
     public Statistics3() {
@@ -17,14 +17,15 @@ class Statistics3 {
     }
 }
 
-class Main {
+class MainProgram3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Statistics3 stats = new Statistics3();
 
         System.out.println("Enter numbers:");
+
         while (true) {
-            int number = Integer.valueOf(scanner.nextLine());
+            int number = Integer.parseInt(scanner.nextLine());
             if (number == -1) {
                 break;
             }
